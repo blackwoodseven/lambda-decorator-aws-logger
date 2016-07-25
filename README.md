@@ -1,10 +1,10 @@
-# aws-logger-decorator
+# lambda-decorator-aws-logger
 AWS Lambda decorator to initialize the [aws-logger](https://github.com/blackwoodseven/aws-logger) with the environment provided by the [set-environment-decorator](https://github.com/blackwoodseven/lambda-decorator-set-environment).
 
 ## Usage
 In order to use the decorator, first you need to add it to the list of dependencies:
 ```bash
-npm install git+ssh://git@github.com:blackwoodseven/set-environment-decorator.git#v1.0.0
+npm install git+ssh://git@github.com:blackwoodseven/lambda-decorator-aws-logger.git#v1.0.0
 ```
 Note that you should specify which version you need by indicating the git tag after the hash.
 
