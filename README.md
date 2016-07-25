@@ -6,7 +6,9 @@ In order to use the decorator, first you need to add it to the list of dependenc
 ```bash
 npm install git+ssh://git@github.com:blackwoodseven/set-environment-decorator.git#v1.0.0
 ```
-In order to use, you will need to install the
+Note that you should specify which version you need by indicating the git tag after the hash.
+
+In order to use it, you will need to install the
  [set-environment-decorator](https://github.com/blackwoodseven/set-environment-decorator) and the [aws-logger](https://github.com/blackwoodseven/aws-logger)  (so you can actually log something).
 
 To enable the decorator, just use it:
