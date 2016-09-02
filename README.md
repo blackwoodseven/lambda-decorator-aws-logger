@@ -4,7 +4,7 @@ AWS Lambda decorator to initialize the [aws-logger](https://github.com/blackwood
 ## Usage
 In order to use the decorator, first you need to add it to the list of dependencies:
 ```bash
-npm install git+ssh://git@github.com:blackwoodseven/lambda-decorator-aws-logger.git#v1.0.0
+npm install git+ssh://git@github.com:blackwoodseven/lambda-decorator-aws-logger.git#v1.0.1
 ```
 Note that you should specify which version you need by indicating the git tag after the hash.
 
