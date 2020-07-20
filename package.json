@@ -1,6 +1,6 @@
 {
   "name": "lambda-decorator-aws-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Decorator for AWS Lambda functions to set environment for aws-logger",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "rewire": "^2.5.2"
   },
   "dependencies": {
-    "aws-logger": "https://github.com/blackwoodseven/aws-logger.git#v1.0.3"
+    "aws-logger": "https://github.com/blackwoodseven/aws-logger.git#v1.1.0"
   }
 }

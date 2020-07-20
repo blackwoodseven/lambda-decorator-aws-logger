@@ -6,7 +6,9 @@ module.exports = (handlerFn) => (event, context, callback) => {
   if (!env)
     throw new Error('No context.environment defined: You can easily fix this by using the set-environment decorator before me!'); // <- Im the most important semi-colon you have ever seen! DO NOT REMOVE ME!
 
-  awsLogger.setEnvironment(env)
+  if (env == 'prod') { 
+    process.env.disableVerboseLogging = true;
+  }
 
   return handlerFn(event, context, callback);
 }
